@@ -511,7 +511,9 @@ body {
         align-self: stretch;
         flex-grow: 0;
     }
-
+    .result{
+        margin-top: 20px;
+    }
 }
 
 @media (max-width:1200px) {
@@ -555,6 +557,9 @@ body {
         width: 50%;
     }
     .buttons{margin-top: 5%;}
+    .result{
+        margin-top: 20px;
+    }
 }
 @media (max-width:600px) {
     .texto {
@@ -617,6 +622,9 @@ body {
     .title{
         padding-top:10px;
         width: 90%;
+    }
+    .result{
+        margin-top: 20px;
     }
 
     
