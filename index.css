@@ -625,6 +625,9 @@ body {
     .sentence{
         margin-top: 5%;
         height:15%;
+        width:88%;
+        margin-left: 0%;
+        
     }
     .texto {
         display: flex;
