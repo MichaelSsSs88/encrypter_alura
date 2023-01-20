@@ -625,14 +625,17 @@ body {
     .sentence{
         margin-top: 5%;
         height:15%;
-        width:85%;
-        margin-left: 1%;
+        width:82%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
         
     }
     .text_area{
         margin-left: 80px;
         margin-right: 80px;
-        display: block;
+        width: 80%;
+        display: inline-block;
     }
     .texto {
         display: flex;
