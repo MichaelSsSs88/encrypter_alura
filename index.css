@@ -523,33 +523,38 @@ body {
 
 
         position: absolute;
-        width: 336px;
-        height: 122px;
-        left: 35%;
-        right: 35%;
-        top: 40%;
+        width: 90%;
+        height: 200px;
+        left: 10%;
+        right: 10%;
+        top: 30%;
 
 
     }
-}
 
-@media (max-width:1000px) {
-    .texto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-
-
+    .content{
         position: absolute;
-        width: 336px;
-        height: 122px;
-        left: 25%;
-        right: 25%;
-        top: 40%;
-
-
+       margin-top: 5%;
+        width: 92%;
+        left: 4%;
+        right: 4%;
     }
+
+    .btn-encrypt {
+        
+        width: 50%;
+        display: block;
+        flex-direction: column;
+       
+    }
+
+    .btn-desencrypt {
+      
+        display: block;
+        flex-direction: column;
+        width: 50%;
+    }
+    .buttons{margin-top: 5%;}
 }
 @media (max-width:600px) {
     .texto {
@@ -557,16 +562,39 @@ body {
         flex-direction: column;
         align-items: center;
         padding: 0px;
-
+        margin-top: 5%;
 
         position: absolute;
-        width: 336px;
-        height: 122px;
-        left: 15%;
-        right: 15%;
-        top: 40%;
+        width: 90%;
+        height: 100px;
+        left: 10%;
+        right: 10%;
+        
 
 
+    }
+
+    .content{
+         position: absolute;
+       top: 35%;
+        width: 92%;
+        left: 4%;
+        right: 4%;
+    }
+
+    .btn-encrypt {
+        margin-top:200px;
+        width: 100%;
+        display: block;
+        flex-direction: column;
+       
+    }
+
+    .btn-desencrypt {
+       
+        display: block;
+        flex-direction: column;
+        width: 100%;
     }
     .buttons {
         display: flex;
@@ -580,11 +608,51 @@ body {
         height: 18px;
         left: 5%;
         right: 5%;
-        top: 94%;
+        top: 60%;
         padding-bottom: 40px;
     }
+    .paragraph{
+        width: 90%;
+    }
+    .title{
+        padding-top:10px;
+        width: 90%;
+    }
+
+    
+}
+@media (max-width:450px) {
+    .sentence{
+        height:15%;
+    }
+    .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+
+
+        position: absolute;
+        width: 90%;
+        height: 200px;
+        left: 10%;
+        right: 10%;
+        top: 30%;
+
+
+    }
+
+    .content{
+         position: absolute;
+        top: 35%;
+        width: 92%;
+        height: 35%;
+        left: 4%;
+        right: 4%;
+    }
+
     .btn-encrypt {
-        
+      margin-top:0px;
         width: 100%;
         display: block;
         flex-direction: column;
@@ -597,24 +665,18 @@ body {
         flex-direction: column;
         width: 100%;
     }
-
-    
-}
-@media (max-width:450px) {
-    .texto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0px;
-
-
-        position: absolute;
-        width: 336px;
-        height: 122px;
-        left: 10%;
-        right: 10%;
-        top: 40%;
-
-
+    .paragraph{
+        width: 90%;
+    }
+    .title{
+        padding-top:10px;
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .buttons {
+        margin-top:10px;
+        padding-top: 10px;
+        top: 80%;
     }
 }
+
