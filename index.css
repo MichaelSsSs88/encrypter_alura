@@ -629,6 +629,11 @@ body {
         margin-left: 1%;
         
     }
+    .text_area{
+        margin-left: 80px;
+        margin-right: 80px;
+        display: block;
+    }
     .texto {
         display: flex;
         flex-direction: column;
