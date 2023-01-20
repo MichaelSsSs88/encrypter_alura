@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <img class="logo" src="./images/Logo.png" alt="" srcset="">
+
+    <div>
+
+        <textarea name="" class="sentence" id="sentence" placeholder="Ingrese tu texto aqui"></textarea>
+    </div>
+
+    <div class="content" id="content">
+
+        <img src="./images/Muñeco.png" class="message">
+        <div class="texto">
+            <h4 class="title">Ningún mensaje fue encontrado</h4>
+            <p class="paragraph">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+    </div>
+    <div class="result" id="result" style="display:none">
+        <textarea name="" class="text-result" id="text-result" readonly></textarea>
+        
+            <button class="btn-copy" onclick="copy(event)">Copiar</button>
+        
+        <!-- <img src="./images/Muñeco.png" class="message">
+        <div class="texto">
+            <h4 class="title">Ningún mensaje fue encontrado</h4>
+            <p class="paragraph">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <div class="buttons">
+            <button class="btn-encrypt">Encriptar</button>
+        </div> -->
+    </div>
+    <div class="buttons" id="buttons">
+        <button class="btn-encrypt" id="btn-encrypt" onclick="encrypt(event)">Encriptar</button>
+        <button class="btn-desencrypt" id="btn-desencrypt" onclick="desencrypt(event)">Desencriptar</button>
+    </div>
+
+</body>
+
+</html>
