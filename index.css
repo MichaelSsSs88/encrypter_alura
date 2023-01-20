@@ -639,6 +639,14 @@ body {
         display: inline-block;
         
     }
+    .text-result{
+        margin-top: 5%;
+        width:82%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+        
+    }
     .text_area{
         margin-left: 80px;
         margin-right: 80px;
